@@ -9,7 +9,7 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav pull-right">
 				<li><a href="./index.php">Strona główna</a></li>
-				<li><a href="./update.php">Aktualizacje</a></li>
+				<li><a href="./download.php">Aktualizacje</a></li>
 				<li><a href="./cmdperm.php">Komendy i uprawnienia</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Więcej <b class="caret"></b></a>
