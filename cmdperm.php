@@ -45,47 +45,66 @@
 			<!-- Article main content -->
 			<article class="col-sm-8 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">Komendy i uprawnienia</h1>
+					<h1 class="page-title">Komendy oraz ich uprawnienia</h1>
 				</header>
-				
-				<h2>Komendy</h2>
-				<h5>/adminchat</h5>
-				<h5>/back</h5>
-				<h5>/broadcast</h5>
-				<h5>/changelore</h5>
-				<h5>/changename</h5>
-				<h5>/chat</h5>
-				<h5>/clear</h5>
-				<h5>/enchant</h5>
-				<h5>/fly</h5>
-				<h5>/gm</h5>
-				<h5>/gc</h5>
-				<h5>/head</h5>
-				<h5>/heal</h5>
-				<h5>/help</h5>
-				<h5>/helpop</h5>
-				<h5>/home</h5>
-				<h5>/info</h5>
-				<h5>/invsee</h5>
-				<h5>/msg</h5>
-				<h5>/motdset</h5>
-				<h5>/nick</h5>
-				<h5>/list</h5>
-				<h5>/qreload</h5>
-				<h5>/r</h5>
-				<h5>/sethome</h5>
-				<h5>/setspawn</h5>
-				<h5>/spawn</h5>
-				<h5>/tp</h5>
-				<h5>/time</h5>
-				<h5>/tppos</h5>
-				<h5>/weather</h5>
-				<h5>/whois</h5>
-				<h5>/world</h5>
-				<br><br><br>
-				<h2>Uprawnienia</h2>
-				<h5>qessentials.[nazwa komendy]</h5>
-				<h5>qessentials.helpop.see</h5>
+
+				<table class="table table-bordered">
+					<tr>
+						<th>Komenda</th>
+						<th>Opis</th>
+						<th>Uprawnienie</th>
+					</tr>
+
+					<?php
+					require_once('./assets/classes/Command.php');
+					$commands = array(
+							new Command("adminchat", "Chat dla administracji"),
+							new Command("back", "Powrót od poprzedniej lokacji"),
+							new Command("broadcast", "Wykonaj wiadomość-ogłoszenie na serwerze"),
+							new Command("changelore", "Zmień opis"),
+							new Command("changename", "TODO"),
+							new Command("chat", "TODO"),
+							new Command("clear", "TOOD"),
+							new Command("enchant", "TODO"),
+							new Command("fly", "TOOD"),
+							new Command("gm", "TODO"),
+							new Command("gc", "TODO"),
+							new Command("head", "TOOD"),
+							new Command("heal", "TOOD"),
+							new Command("help", "TOOD"),
+							new Command("helpop", "TODO", "qessentials.helpop.see"),
+							new Command("home", "TOOD"),
+							new Command("info", "TOOD"),
+							new Command("invsee", "TODO"),
+							new Command("msg", "TODO"),
+							new Command("motdset", "TODO"),
+							new Command("nick", "TODO"),
+							new Command("list", "TODO"),
+							new Command("qreload", "TODO"),
+							new Command("r", "TODO"),
+							new Command("sethome", "TODO"),
+							new Command("setspawn", "TODO"),
+							new Command("spawn", "TODO"),
+							new Command("tp", "TODO"),
+							new Command("time", "TODO"),
+							new Command("tppos", "TODO"),
+							new Command("weather", "TODO"),
+							new Command("whois", "TODO"),
+							new Command("world", "TODO"),
+					);
+
+					foreach ($commands as $command) {
+						echo('<tr><td><h5>/' . $command->getCommand() . '</h5></td>');
+						echo('<td><h5><i>' . $command->getDescription() . '</i></h5></td>');
+						echo('<td><h5>' . $command->getPermission() . '</h5></td></tr>');
+					}
+					?>
+				</table>
+
+				<header class="page-header">
+					<h1 class="page-title">Dodatkowe uprawnienia</h1>
+				</header>
+
 				<h5>qessentials.sign.color</h5>
 				<h5>qessentials.chat.color</h5>
 			</article>
