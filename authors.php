@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>qEssentials</title>
+	<title>Autorzy - qEssentials</title>
 
 	<link rel="shortcut icon" href="http://xvacuum.za.pl/qEssentials/assets/images/gt_favicon.png">
 	
@@ -37,7 +37,7 @@
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Strona główna</a></li>
-			<li class="active">Dokumentacja API</li>
+			<li class="active">Autorzy projektu</li>
 		</ol>
 
 		<div class="row">
@@ -45,15 +45,16 @@
 			<!-- Article main content -->
 			<article class="col-sm-8 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">API</h1>
+					<h1 class="page-title">Autorzy projektu</h1>
 				</header><center>
-				<h2><b>Developerzy projektu</b></h2>
-				<h3> xVacuum</h3>
-				<h3> NTSW</h3>
-				<h3> Kresrek007</h3>
-				
-				<h2><b>Testerzy projektu</b></h2>
-				<h3> xSmokBezioxKox</h5></center>
+				<h2><b>Developerzy</b></h2>
+				<h3>xVacuum</h3>
+				<h3>NTSW</h3>
+				<h3>Kresrek007</h3>
+				<h3>TheMolkaPL <small>(strona WWW)</small></h3>
+
+				<h2><b>Testerzy</b></h2>
+				<h3>xSmokBezioxKox</h5></center>
 				
 				
 				

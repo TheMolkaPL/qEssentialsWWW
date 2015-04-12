@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>qEssentials</title>
+	<title>API - qEssentials</title>
 
 	<link rel="shortcut icon" href="http://xvacuum.za.pl/qEssentials/assets/images/gt_favicon.png">
 	

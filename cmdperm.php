@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>About - Progressus Bootstrap template</title>
+	<title>Lista komend oraz uprawnień - qEssentials</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	

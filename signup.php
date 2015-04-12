@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 	
-	<title>qEssentials</title>
+	<title>Rejestracja - qEssentials</title>
 
 	<link rel="shortcut icon" href="assets/images/ico.png">
 	
