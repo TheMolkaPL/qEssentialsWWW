@@ -37,7 +37,7 @@
 				<h1 class="lead">qEssentials Project</h1>
 				<b><p class="tagline">Jesteśmy dwuosobową grupą tworzącą jeden z najbardziej rozwijających się projektów na polskiej scenie bukkita! 
 				Czy szukałeś systemu narzędzi, komend i funkcji? Dobrze trafiłeś! qEssentials jest właśnie dla Ciebie! </p></b>
-				<p><a class="btn btn-default btn-lg" role="button" href="cmdperm.html">UPRAWNIENIA/KOMENDY</a> <a class="btn btn-action btn-lg" role="button" href="/qEssentials/download/lastUpdate/qEssentials.jar">POBIERZ NAJNOWSZY UPDATE</a></p>
+				<p><a class="btn btn-default btn-lg" role="button" href="./cmdperm.php">UPRAWNIENIA/KOMENDY</a> <a class="btn btn-action btn-lg" role="button" href="./download/lastUpdate/qEssentials.jar">POBIERZ NAJNOWSZY UPDATE</a></p>
 			</div>
 		</div>
 	</header>
